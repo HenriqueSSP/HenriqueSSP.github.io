@@ -1,0 +1,48 @@
+@font-face {
+   font-family: p-sans;
+   src: url(../font/ProductSansRegular.ttf);
+}
+
+html, body{
+  	height: 100%;
+}
+
+body{
+	background-color: #1f2333;
+	font-family: p-sans;
+}
+
+p {
+	margin: 0;
+	font-size: 14pt;
+	font-family: p-sans;
+	word-break: break-all;
+}
+
+.all {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #06bf41;
+	padding: 5px 10px;
+}
+
+.email {
+	color: white;
+	margin-right: 10px;
+}
+
+.botao {
+	height: 30px;
+}
+
+img {
+	width: 30px;
+}
